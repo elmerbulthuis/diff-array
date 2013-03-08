@@ -15,7 +15,7 @@ describe('speed', function(){
 	addTest(1000, 10);
 	addTest(1000, 100);
 
-	addTest(1000, 10);
+	addTest(10000, 10);
 
 
 	function addTest(iterationCount, size){
