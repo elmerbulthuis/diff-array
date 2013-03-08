@@ -1,0 +1,24 @@
+{
+    "name":	"diffArray"
+    , "description":	"diffArray"
+    , "version":	"0.0.1"
+    , "author":	"Elmer Bulthuis <elmerbulthuis@gmail.com>"
+    , "repositories":	[
+        {
+            "type": "git"
+            , "url": "git@github.com:elmerbulthuis/diffArray.git"
+        }
+    ]
+
+    , "main": "lib/diffArray.js"
+    , "scripts": {
+        "test": "mocha test/* --reporter spec"
+    }
+    
+    , "dependencies":	{
+	}
+    , "devDependencies":	{
+	   "mocha": "*"
+    }
+
+}
