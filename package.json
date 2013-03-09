@@ -1,12 +1,12 @@
 {
     "name":	"diff-array"
-    , "description":	"diffArray"
-    , "version":	"0.0.2"
+    , "description":	"compare difference between two arrays"
+    , "version":	"0.0.3"
     , "author":	"Elmer Bulthuis <elmerbulthuis@gmail.com>"
     , "repositories":	[
         {
             "type": "git"
-            , "url": "git@github.com:elmerbulthuis/diffArray.git"
+            , "url": "git@github.com:elmerbulthuis/diff-array.git"
         }
     ]
 
