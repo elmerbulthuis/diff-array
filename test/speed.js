@@ -6,6 +6,7 @@ describe('speed', function(){
 	addTest(100, 1000);
 	addTest(100, 2000);
 	addTest(100, 4000);
+	addTest(100, 8000);
 
 	function addTest(iterationCount, size){
 		var src = [];
