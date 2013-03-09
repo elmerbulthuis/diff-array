@@ -1,6 +1,6 @@
 {
     "name":	"diff-array"
-    , "description":	"diffArray"
+    , "description":	"compare difference between two arrays"
     , "version":	"0.0.2"
     , "author":	"Elmer Bulthuis <elmerbulthuis@gmail.com>"
     , "repositories":	[
