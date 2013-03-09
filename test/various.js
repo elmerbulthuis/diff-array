@@ -1,47 +1,15 @@
 var assert = require('assert');
 var diffArray = require('../.');
 
-describe('deleteAndInsert', function(){
+describe('various', function(){
 
 	it('reverse', function(){
 		assert.deepEqual(diffArray([5, 4, 3, 2, 1], [1, 2, 3, 4, 5]), [
 			{
-				type: 'delete'
-				, index: 0
-				, value: 5
-			}
-			, {
-				type: 'delete'
-				, index: 0
-				, value: 4
-			}
-			, {
-				type: 'delete'
-				, index: 0
-				, value: 3
-			}
-			, {
-				type: 'delete'
-				, index: 0
-				, value: 2
-			}
-	
-			/*
-			this is not optimal
-			*/
-			, {
-				type: 'delete'
-				, index: 0
-				, value: 1
-			}
-			, {
 				type: 'insert'
 				, index: 0
 				, value: 1
 			}
-			/*
-			*/
-
 			, {
 				type: 'insert'
 				, index: 1
@@ -58,10 +26,26 @@ describe('deleteAndInsert', function(){
 				, value: 4
 			}
 			, {
-				type: 'insert'
-				, index: 4
-				, value: 5
+				type: 'delete'
+				, index: 5
+				, value: 4
 			}
+			, {
+				type: 'delete'
+				, index: 5
+				, value: 3
+			}
+			, {
+				type: 'delete'
+				, index: 5
+				, value: 2
+			}
+			, {
+				type: 'delete'
+				, index: 5
+				, value: 1
+			}
+	
 		]);
 	});
 
