@@ -6,7 +6,7 @@
     , "repositories":	[
         {
             "type": "git"
-            , "url": "git@github.com:elmerbulthuis/diffArray.git"
+            , "url": "git@github.com:elmerbulthuis/diff-array.git"
         }
     ]
 
