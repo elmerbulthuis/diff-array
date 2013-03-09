@@ -3,20 +3,11 @@ var diffArray = require('../.');
 
 describe('speed', function(){
 	
-	addTest(1, 10);
-	addTest(1, 100);
-	addTest(1, 1000);
-	addTest(1, 10000);
-
-	addTest(10, 10);
-	addTest(10, 100);
 	addTest(10, 1000);
-
-	addTest(1000, 10);
-	addTest(1000, 100);
-
-	addTest(10000, 10);
-
+	addTest(20, 1000);
+	addTest(40, 1000);
+	addTest(80, 1000);
+	addTest(160, 1000);
 
 	function addTest(iterationCount, size){
 		var src = [];
