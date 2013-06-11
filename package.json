@@ -1,24 +1,21 @@
 {
-    "name":	"diff-array"
-    , "description":	"compare difference between two arrays"
-    , "version":	"0.0.4"
-    , "author":	"Elmer Bulthuis <elmerbulthuis@gmail.com>"
-    , "repositories":	[
-        {
-            "type": "git"
-            , "url": "git@github.com:elmerbulthuis/diff-array.git"
-        }
-    ]
-
-    , "main": "lib/diffArray.js"
-    , "scripts": {
-        "test": "mocha test/* --reporter spec"
+  "name": "diff-array",
+  "description": "compare difference between two arrays",
+  "version": "0.0.5",
+  "author": "Elmer Bulthuis <elmerbulthuis@gmail.com>",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:elmerbulthuis/diff-array.git"
     }
-    
-    , "dependencies":	{
-	}
-    , "devDependencies":	{
-	   "mocha": "*"
-    }
-
+  ],
+  "main": "lib/diffArray.js",
+  "scripts": {
+    "test": "mocha test/* --reporter spec"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1",
+    "bower": "~0.9"
+  }
 }
