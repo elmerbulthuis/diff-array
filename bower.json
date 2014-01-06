@@ -8,5 +8,5 @@
     "test",
     "bower"
   ],
-  "main": "lib/diffArray.js",
+  "main": "lib/diffArray.js"
 }
